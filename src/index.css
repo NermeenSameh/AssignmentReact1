@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* navbar style */
+.Logo{
+font-size: 32px;
+color: white !important;
+font-weight: bold;
+}
+.nav-link{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height:24px;
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar{
+  background-color: #2c3e50 !important;
+  color: white !important;
+}
+.activeNav{
+background-color: #1abc9c !important;
+color: white !important;
+}
+/* about style */
+.about{
+  height: 80vh;
+  background-color: #1abc9c;
+}
+.line{
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+/* home style */
+h2{
+  font-size:40px;
+}
+.line2{
+  height: 4px;
+  width: 80px;
+  background-color: #2C3E50;
+
+}
+.title{
+  color: #2C3E50;
+}
+.star2{
+  color: #2C3E50;
+}
+.homeImg{
+  width: 250px;
+}
+/* footer style */
+.footer{
+  background-color: #2C3E50;
+}
+.icon i{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.footerEnd{
+  background-color: #1A252F ;
+}
+
+
+.notfoundDiv{
+  height: 75vh;
+  color: #2C3E50;
+}
+/* porfolio style */
+.layer{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+.layer:hover{
+  opacity: 1;
+}
+
+.form-control:focus{
+  color:none !important;
+  box-shadow: none !important;
+}
+
+
+.btn-green{
+background-color: #1abc9c !important;
+}
